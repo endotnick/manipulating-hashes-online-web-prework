@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.values.collect { |v| v }
-  
+  groceries.values.flatten
+
 
 end
